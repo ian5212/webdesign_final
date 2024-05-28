@@ -1,0 +1,277 @@
+/* Fonts */
+@font-face {
+    font-family: 'Raleway-Thin';
+    src: url('/Users/ianaskie/Documents/final/fonts/Raleway-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'Inter-Thin' ;
+    src: url(/Users/ianaskie/Documents/final/fonts/Inter-Thin.ttf);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(/Users/ianaskie/Documents/final/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(/Users/ianaskie/Documents/final/fonts/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Themysion' ;
+    src: url(/Users/ianaskie/Documents/final/fonts/Themysion-2OjKo.ttf);
+}
+
+@font-face {
+    font-family: 'Abel';
+    src: url(/Users/ianaskie/Documents/final/fonts/Abel-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'RobotoSlab-ExtraLight' ;
+    src: url(/Users/ianaskie/Documents/final/fonts/RobotoSlab-ExtraLight.ttf);
+}
+
+/* hyperlinks */
+a:link{
+    color:#c48813;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #c48813;
+}
+
+a:hover{
+    color: #ffffff;
+}
+
+a:active{
+    color: gray;
+}
+
+/* Texts */
+
+.paratxtmain{
+    margin-top: 32pt;
+font-size: 14pt;
+color: #ffffff;
+text-align: center;
+font-family: Raleway-Thin;
+margin-bottom: 32pt;
+}
+
+.paratxtmain2{
+    margin-top: 16pt;
+font-size: 14pt;
+color: #ffffff;
+text-align: center;
+font-family: Raleway-Thin;
+margin-bottom: 16pt;
+}
+
+.maintxtmain{
+    margin-top: 48pt;
+    font-size: 72pt;
+    color: #c48813;
+    text-align: center;
+    font-family: Inter-Thin;
+    margin-bottom: 64pt;
+}
+
+.maintxtmain2{
+    margin-top: 36pt;
+    font-size: 72pt;
+    color: #c48813;
+    text-align: center;
+    font-family: Inter-Thin;
+    margin-bottom: 36pt;
+}
+.maintxtcursive{
+    margin-top: 48pt;
+    font-size: 88pt;
+    color: #c48813;
+    text-align: center;
+    font-family: Themysion;
+    margin-bottom: 36pt;
+}
+
+.menutxt{
+    margin-top: 32pt;
+    font-size: 32pt;
+    color: #c48813;
+    text-align: center;
+    font-family: Raleway-Thin;
+    margin-bottom: 32pt;
+}
+
+.figure-caption{
+font-size: 12pt;
+color: #ffffff;
+text-align: center;
+font-family: Raleway-Thin;
+margin-bottom: 24pt;
+}
+
+/* lepidoptera text */
+
+.leptxtcursive{
+    margin-top: 60pt;
+    font-size: 120pt;
+    color: #000000;
+    text-align: center;
+    font-family: Themysion;
+    margin-bottom: 24pt;
+}
+
+.paratxtlep{
+    margin-top: 32pt;
+font-size: 14pt;
+color: #000000;
+text-align: center;
+font-family: Abel;
+margin-bottom: 32pt;
+}
+
+.caption{
+    font-size: 12pt;
+    color: #000000;
+    text-align: center;
+    font-family: Raleway-Thin;
+    margin-bottom: 24pt;
+    }
+
+/* Apocrypha text */
+
+.apotxtmain{
+    margin-top: 60pt;
+    font-size: 120pt;
+    color: #ff3216;
+    text-align: center;
+    font-family: Inter-Thin;
+    margin-bottom: 24pt;
+}
+
+.paratxtapo{
+    margin-top: 32pt;
+font-size: 14pt;
+color: #ff3216;
+text-align: center;
+font-family: Raleway-Thin;
+margin-bottom: 32pt;
+}
+
+.captionapo{
+    font-size: 12pt;
+    color: #ff3216;
+    text-align: center;
+    font-family: Raleway-Thin;
+    margin-bottom: 24pt;
+    }
+
+/* Eonexpansias text */
+.eontxtmain{
+    margin-top: 60pt;
+    font-size: 120pt;
+    color: #0e0044;
+    text-align: center;
+    font-family: Inter-Thin;
+    margin-bottom: 24pt;
+    width: 100%;
+}
+
+.paratxteon{
+    margin-top: 32pt;
+font-size: 14pt;
+color: #0e0044;
+text-align: center;
+font-family: Raleway-Thin;
+margin-bottom: 32pt;
+}
+
+.captioneon{
+    font-size: 12pt;
+    color: #0e0044;
+    text-align: center;
+    font-family: Raleway-Thin;
+    margin-bottom: 24pt;
+    }
+
+/* EROS txt */
+.erostxtmain{
+    margin-top: 60pt;
+    font-size: 120pt;
+    color: #000;
+    text-align: center;
+    font-family: RobotoSlab-ExtraLight;
+    margin-bottom: 24pt;
+}
+
+.paratxteros{
+    margin-top: 32pt;
+font-size: 14pt;
+color: #000;
+text-align: center;
+font-family: Inter-Thin;
+margin-bottom: 32pt;
+}
+
+.captioneros{
+    font-size: 12pt;
+    color: #000;
+    text-align: center;
+    font-family: Inter-Thin;
+    margin-bottom: 24pt;
+    }
+
+/* Bootstrap */
+.navbar-nav > li{
+    padding-left:60px;
+    padding-right:60px;
+}
+
+.nav-link{
+    margin-top: 12pt;
+    font-size: 16pt;
+    color: #ffffff;
+    font-family: Raleway-Thin;
+    
+}
+
+.nav-linkdark{
+    margin-top: 12pt;
+    font-size: 16pt;
+    color: #000000;
+    font-family: Raleway-Thin;
+}
+
+.figure{
+    display: block;
+    max-width: 50%;
+    max-height: 50%;
+}
+/* footer + etc. */
+.footer {
+    text-align: center;
+    padding: 75px;
+    margin: 0 10px
+}
+
+.social-icons{
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 25%;
+    height: 25%;
+}
+
+.input-group-text{
+    background-color: #000;
+    color: #ffffff;
+}
+
+.form-control{
+    background-color: #000;
+    color: #c48813;
+}
